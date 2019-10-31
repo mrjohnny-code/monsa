@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Monsa</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<a class="header__logo" href="#">Mon’sa</a>
+			<nav class="header__nav" id="nav">
+				<a class="nav__link" href="#">Home</a>
+				<a class="nav__link" href="#">Shop</a>
+				<a class="nav__link" href="#">Pages</a>
+				<a class="nav__link" href="#">Blog</a>
+				<a class="nav__link" href="#">Lookbook</a>
+			</nav>
+			<div class="header__right" id="nav2">
+				<div class="header__right_item user">
+					<a href="#"><i class="far fa-user-circle"></i></a>
+				</div>
+				<div class="header__right_item search">
+					<a href="#"><i class="fas fa-search"></i></a>
+				</div>
+				<div class="header__right_item basket">
+					<a href="#"><i class="fas fa-shopping-basket"></i></a>
+					<div class="basket__count"><span>0</span></div>
+				</div>
+			</div>
+			<button class="header__burger" type="button" id="navToggle">
+				<span class="burger__item">Menu</span>
+			</button>
+		</div>
+	</div>
+</header><!-- /.header -->
+
+
+<!-- Intro -->
+<div class="intro">
+	<div class="container">
+		<div class="intro__inner">
+			<div class="intro__content">
+				<div class="content__background">Mon’sa</div>
+				<div class="content__suptitle">extra 55% off in spring sale</div>
+				<div class="content__title">Discover & Shop The Trend Ss19</div>
+				<a class="btn content__btn" href="#">Shop now</a>
+			</div>
+			<div class="intro__image">
+				<img class="intro__img" src="img/intro_image.png" alt="">
+			</div>
+		</div>
+	</div>
+</div><!-- /.intro -->
+
+
+<!-- Collection -->
+<div class="collection">
+	<div class="container">
+		<div class="collection__inner">
+			<div class="collection__info">
+				<div class="block__title">New Collection</div>
+				<div class="collection__suptitle">#35 items</div>
+				<div class="collection__title">Available on store</div>
+				<a class="btn collection__btn" href="#">Shop now</a>
+			</div>
+			<div class="collection__image">
+				<a href="#"><img class="collection__img" src="http://placehold.it/570x700" alt=""></a>
+			</div>
+			<div class="collection__price">
+				<a class="collection__price_title" href="#">Jacket with side stripes</a>
+				<div class="collection__price_num">
+					<span class="old_price">$45.00</span>
+					<span class="new_price">$75.00</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- /.collection -->
+
+
+<!-- Sale -->
+<div class="sale">
+	<div class="container">
+		<div class="sale__inner">
+			<div class="block__title">On Sale</div>
+			<div class="sale__block">
+				<div class="sale__item">
+					<img class="sale__img" src="http://placehold.it/370x470" alt="">
+					<div class="sale__item_content">
+						<div class="sale__content_block">
+							<div class="sale__suptitle">Man Outerwear</div>
+							<div class="sale__title">sale 40% off</div>
+							<div class="sale__subtitle">-  don’t miss  -</div>
+							<a class="btn sale__btn" href="#">Shop now</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="sale__item">
+					<img class="sale__img" src="http://placehold.it/370x470" alt="">
+					<div class="sale__item_content">
+						<div class="sale__content_block">
+							<div class="sale__suptitle">woMan T-SHIRT</div>
+							<div class="sale__title">sale 25% off</div>
+							<div class="sale__subtitle">-  don’t miss  -</div>
+							<a class="btn sale__btn" href="#">Shop now</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="sale__item">
+					<img class="sale__img" src="http://placehold.it/370x470" alt="">
+					<div class="sale__item_content">
+						<div class="sale__content_block">
+							<div class="sale__suptitle">JACKETS</div>
+							<div class="sale__title">sale 20% off</div>
+							<div class="sale__subtitle">-  don’t miss  -</div>
+							<a class="btn sale__btn" href="#">Shop now</a>
+						</div>
+					</div>
+				</div>
+			</div><!-- /.sale__block -->
+		</div><!-- /.sale__inner -->
+	</div><!-- /.container -->
+</div><!-- /.sale -->
+
+
+<!-- Shop -->
+<div class="shop">
+	<div class="container">
+		<div class="shop__inner">
+			<div class="block__title">Must Have</div>
+			<div class="shop__filter">
+				<a class="filter__link active" href="#" data-filter="shop__item">All</a>
+				<a class="filter__link" href="#" data-filter="man">Man</a>
+				<a class="filter__link" href="#" data-filter="woman">Woman</a>
+				<a class="filter__link" href="#" data-filter="bag">Bag</a>
+				<a class="filter__link" href="#" data-filter="shoes">Shoes</a>
+			</div>
+			<div class="shop__blocks">
+				<div class="shop__item man">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+						<div class="shop__item_label">New</div>
+						<div class="shop__item_colors">
+							<div class="shop__color pink"></div>
+							<div class="shop__color green"><i class="fas fa-check"></i></div>
+							<div class="shop__color red"></div>
+						</div>
+					</div>					
+					<a class="shop__item_title" href="#">Basic long sleeve T-shirt</a>
+					<div class="shop__item_price">$45.00 - $75.00</div>
+				</div>
+
+				<div class="shop__item man">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+					</div>					
+					<a class="shop__item_title" href="#">Ribbed T-shirt with buttons</a>
+					<div class="shop__item_price type2">
+						<span class="shop__price_old">$45.00</span>
+						<span class="shop__price_new">$75.00</span>
+					</div>
+				</div>
+
+				<div class="shop__item woman">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+						<div class="shop__item_label percent">-20%</div>
+					</div>					
+					<a class="shop__item_title" href="#">Jacket with side stripes</a>
+					<div class="shop__item_price type2">
+						<span class="shop__price_old">$45.00</span>
+						<span class="shop__price_new">$75.00</span>
+					</div>
+				</div>
+
+				<div class="shop__item woman">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+						<div class="shop__item_colors">
+							<div class="shop__color pink"></div>
+							<div class="shop__color green"><i class="fas fa-check"></i></div>
+						</div>
+					</div>					
+					<a class="shop__item_title" href="#">High-heel tubular sandals</a>
+					<div class="shop__item_price type2">
+						<span class="shop__price_old">$45.00</span>
+						<span class="shop__price_new">$75.00</span>
+					</div>
+				</div>
+
+				<div class="shop__item bag">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+					</div>					
+					<a class="shop__item_title" href="#">Coral fabric belt bag</a>
+					<div class="shop__item_price">$60.00 - $90.00</div>
+				</div>
+
+				<div class="shop__item bag">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+					</div>					
+					<a class="shop__item_title" href="#">Piggy skater slogan T-shirt</a>
+					<div class="shop__item_price type2">
+						<span class="shop__price_old">$40.00</span>
+						<span class="shop__price_new">$55.00</span>
+					</div>
+				</div>
+
+				<div class="shop__item shoes">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+						<div class="shop__item_label">New</div>
+					</div>					
+					<a class="shop__item_title" href="#">White platform boots</a>
+					<div class="shop__item_price type2">
+						<span class="shop__price_old">$35.00</span>
+						<span class="shop__price_new">$70.00</span>
+					</div>
+				</div>
+
+				<div class="shop__item shoes">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+					</div>					
+					<a class="shop__item_title" href="#">Sweater vest with sleeves</a>
+					<div class="shop__item_price type2">
+						<span class="shop__price_old">$55.00</span>
+						<span class="shop__price_new">$85.00</span>
+					</div>
+				</div>
+
+				<div class="shop__item bag">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+					</div>					
+					<a class="shop__item_title" href="#">Slim carrot fit pants</a>
+					<div class="shop__item_price">$20.00 - $30.00</div>
+				</div>
+
+				<div class="shop__item man">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+						<div class="shop__item_label percent">-50%</div>
+					</div>					
+					<a class="shop__item_title" href="#">Grey backpack with flag</a>
+					<div class="shop__item_price type2">
+						<span class="shop__price_old">$15.00</span>
+						<span class="shop__price_new">$25.00</span>
+					</div>
+				</div>
+
+				<div class="shop__item woman">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+					</div>					
+					<a class="shop__item_title" href="#">Neon sweatshirt</a>
+					<div class="shop__item_price type2">
+						<span class="shop__price_old">$95.00</span>
+						<span class="shop__price_new">$75.00</span>
+					</div>
+				</div>
+
+				<div class="shop__item shoes">
+					<div class="shop__item_image">
+						<a href="#"><img class="shop__item_img" src="http://placehold.it/370x440" alt=""></a>
+						<div class="shop__item_colors">
+							<div class="shop__color pink"></div>
+							<div class="shop__color green"></div>
+							<div class="shop__color red"><i class="fas fa-check"></i></div>
+						</div>
+					</div>					
+					<a class="shop__item_title" href="#">Hooded nautical jacket</a>
+					<div class="shop__item_price type2">
+						<span class="shop__price_old">$45.00</span>
+						<span class="shop__price_new">$65.00</span>
+					</div>
+				</div>
+			</div><!-- /.shop__blocks -->
+		</div><!-- /.shop__inner -->
+	</div><!-- /.container -->
+</div><!-- /.shop -->
+
+
+<!-- BLog -->
+<div class="blog">
+	<div class="container">
+		<div class="blog__inner">
+			<div class="block__title">Latest News</div>
+			<div class="blog__content">
+				<div class="blog__item">
+					<a class="blog__image" href="#"><img class="blog__img" src="http://placehold.it/370x240" alt=""></a>
+					<div class="blog__item_suptitle">
+						<div class="suptitle_theme">Fashion</div>
+						<div class="suptitle_author">Jame Simon</div>
+						<div class="suptitle_date">Feb 02, 2019</div>
+					</div>
+					<a class="blog__item_title" href="#">Trick To Mixing Prints and Colors</a>
+					<div class="blog__item_text">Lorem ipsum dolor sit amet, consectetur adipiscingsed do eiusmod tempor</div>
+					<a class="blog__arrow" href="#"><i class="fas fa-arrow-right"></i></a>
+				</div>
+
+				<div class="blog__item">
+					<a class="blog__image" href="#"><img class="blog__img" src="http://placehold.it/370x240" alt=""></a>
+					<div class="blog__item_suptitle">
+						<div class="suptitle_theme">Fashion</div>
+						<div class="suptitle_author">Jame Simon</div>
+						<div class="suptitle_date">Feb 02, 2019</div>
+					</div>
+					<a class="blog__item_title" href="#">After Party Wedding Dresses All Brides Need to See</a>
+					<div class="blog__item_text">Lorem ipsum dolor sit amet, consectetur adipiscingsed do eiusmod tempor</div>
+					<a class="blog__arrow" href="#"><i class="fas fa-arrow-right"></i></a>
+				</div>
+
+				<div class="blog__item">
+					<a class="blog__image" href="#"><img class="blog__img" src="http://placehold.it/370x240" alt=""></a>
+					<div class="blog__item_suptitle">
+						<div class="suptitle_theme">Fashion</div>
+						<div class="suptitle_author">Jame Simon</div>
+						<div class="suptitle_date">Feb 02, 2019</div>
+					</div>
+					<a class="blog__item_title" href="#">Life Lately + My Favorite Shoes</a>
+					<div class="blog__item_text">Lorem ipsum dolor sit amet, consectetur adipiscingsed do eiusmod tempor</div>
+					<a class="blog__arrow" href="#"><i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</div><!-- /.blog__inner -->
+	</div><!-- /.container -->
+</div><!-- /.blog -->
+
+
+<!-- Brands -->
+<div class="brand">
+	<div class="container">
+		<div class="brand__inner">
+			<div class="brand__item">
+				<img class="brand__img" src="img/brands/1.png" alt="">
+			</div>
+			<div class="brand__item">
+				<img class="brand__img" src="img/brands/2.png" alt="">
+			</div>
+			<div class="brand__item">
+				<img class="brand__img" src="img/brands/3.png" alt="">
+			</div>
+			<div class="brand__item">
+				<img class="brand__img" src="img/brands/4.png" alt="">
+			</div>
+			<div class="brand__item">
+				<img class="brand__img" src="img/brands/5.png" alt="">
+			</div>
+			<div class="brand__item">
+				<img class="brand__img" src="img/brands/6.png" alt="">
+			</div>
+		</div>
+	</div><!-- /.container -->
+</div><!-- /.brand -->
+
+
+<!-- Footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="footer__content">
+				<div class="footer__item">
+					<div class="footer__title">CONTACT INFO</div>
+					<div class="contact__item">
+						<i class="fas fa-map-marker-alt contact__icon"></i>
+						<span class="contact__item_text address">123 London Bridge Street London</span>
+					</div>
+					<div class="contact__item">
+						<i class="fas fa-envelope contact__icon"></i>
+						<a class="contact__item_text mail" href="#">support@monsa.com</a>
+					</div>
+					<div class="contact__item">
+						<i class="fas fa-phone-alt contact__icon"></i>
+						<a class="contact__item_text phone" href="#">(+012) 3456 789</a>
+					</div>
+					<div class="contact__cards">
+						<a class="contact__cards_item" href="#"><i class="fab fa-cc-mastercard"></i></a>
+						<a class="contact__cards_item" href="#"><i class="fab fa-cc-visa"></i></a>
+						<a class="contact__cards_item" href="#"><i class="fab fa-cc-paypal"></i></a>
+					</div>
+				</div>
+				<div class="footer__item">
+					<div class="footer__title">COMPANY</div>
+					<div class="footer__nav">
+						<a class="footer__link" href="#">Home</a>
+						<a class="footer__link" href="#">About Us</a>
+						<a class="footer__link" href="#">Work With Us</a>
+						<a class="footer__link" href="#">Our Blog</a>
+						<a class="footer__link" href="#">Terms and Conditions</a>
+					</div>
+				</div>
+				<div class="footer__item">
+					<div class="footer__title">USEFUL LINK</div>
+					<div class="footer__nav">
+						<a class="footer__link" href="#">Help</a>
+						<a class="footer__link" href="#">Track My Order</a>
+						<a class="footer__link" href="#">Men</a>
+						<a class="footer__link" href="#">Women</a>
+						<a class="footer__link" href="#">Shoes</a>
+					</div>
+				</div>
+				<div class="footer__item">
+					<div class="footer__title">INSTAGRAM</div>
+					<div class="footer__inst">
+						<a class="footer__image" href="#">
+							<img class="footer__img" src="http://placehold.it/80" alt="">
+						</a>
+						<a class="footer__image" href="#">
+							<img class="footer__img" src="http://placehold.it/80" alt="">
+						</a>
+						<a class="footer__image" href="#">
+							<img class="footer__img" src="http://placehold.it/80" alt="">
+						</a>
+						<a class="footer__image" href="#">
+							<img class="footer__img" src="http://placehold.it/80" alt="">
+						</a>
+						<a class="footer__image" href="#">
+							<img class="footer__img" src="http://placehold.it/80" alt="">
+						</a>
+						<a class="footer__image" href="#">
+							<img class="footer__img" src="http://placehold.it/80" alt="">
+						</a>
+					</div>
+				</div>
+			</div><!-- /.footer__content -->
+		</div><!-- /.footer__inner -->
+	</div><!-- /.container -->
+	<div class="footer__bottom">
+		<div class="container">
+			<div class="footer__bottom_content">
+				<div class="footer__copyright">Copyright @ 2019. All Right Reserved</div>
+				<form class="footer__form">
+					<div class="footer__input_block">
+						<i class="fas fa-envelope footer__input_icon"></i>
+						<input class="footer__input" type="text" placeholder="Enter your email">
+					</div>
+					<button class="btn footer__btn">Subscribe</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</footer><!-- /.footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

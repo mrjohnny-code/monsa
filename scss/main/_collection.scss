@@ -1,0 +1,119 @@
+/* Collection */
+.collection {
+	padding: 100px 0;
+
+	@media only screen and (max-width: 700px) {
+		padding: 60px 0;
+	}
+
+	&__inner {
+		display: flex;
+
+		@media only screen and (max-width: 700px) {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.collection__info {
+			padding-top: 100px;
+
+			@media only screen and (max-width: 700px) {
+				padding-top: 0px;
+				text-align: center;
+			}
+
+			.block__title {
+				white-space: nowrap;
+
+				text-align: left;
+
+				&:after {
+					left: 0;
+					transform: translateX(0);
+				}
+
+				@media only screen and (max-width: 770px) {
+					font-size: 30px;
+				}
+			}
+			.collection__suptitle {
+				margin-bottom: 25px;
+
+				color: $gray;
+				font-size: 16px;
+				text-transform: uppercase;
+			}
+			.collection__title {
+				margin-bottom: 50px;
+
+				font-size: 30px;
+				font-weight: 600;
+
+				@media only screen and (max-width: 770px) {
+					font-size: 20px;
+				}
+			}
+			.collection__btn {
+				color: $black;
+				background-color: $white;
+				border-color: $black;
+
+				&:hover {
+					color: $white;
+					background-color: $black;
+				}
+			}
+		}// /.collection__info
+		.collection__image {
+			margin-left: 70px;
+
+			@media only screen and (max-width: 700px) {
+				margin: 30px 0;
+			}
+
+			.collection__img {
+				display: block;
+
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		.collection__price {
+			align-self: center;
+			margin-left: -52px;
+			min-width: 190px;
+
+			@media only screen and (max-width: 770px) {
+				min-width: 120px;
+				margin: 0;
+
+				text-align: center;
+			}
+
+			&_title {
+				color: $black;
+				font-size: 16px;
+				font-weight: 600;
+				text-decoration: none;
+				
+				opacity: .8;
+				transition: opacity .1s linear;
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+			&_num {
+				margin-top: 10px;
+
+				.old_price {
+					color: $gray;
+					text-decoration: line-through;
+				}
+				.new_price {
+					margin-left: 5px;
+				}
+			}
+		}
+	}// /.collection__inner
+}// /.collection
